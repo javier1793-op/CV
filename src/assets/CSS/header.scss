@@ -1,0 +1,20 @@
+.section-head{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.cont-photo{
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.info h1{
+    font-size: 20px;
+    font-weight: 600;
+}
