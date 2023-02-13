@@ -1,0 +1,31 @@
+.container-edu{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    gap: 20px;
+    color: #5d6d7e;
+}
+.content-edu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.container-edu .description-edu{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.container-edu .description-edu span{
+    font-weight: 700;
+}
+.container-edu .description-edu span:nth-child(2){
+    font-weight: 550;
+}
+.content-edu img{
+    width: 50px;
+    height:50px;
+    border-radius: 50%;
+}

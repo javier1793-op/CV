@@ -1,0 +1,38 @@
+.data-info{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 17px;
+}
+.data-info h3{
+    font-weight: 600;
+    color:  #5d6d7e ;
+}
+.data-info p{
+    margin: 6px 0;
+    color: #5d6d7e;
+    font-weight: 400;
+}
+.data-info .descriptionP{
+    font-size: 13px;
+}
+.contact{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    gap: 20px;
+    flex-wrap: wrap;
+    padding: 20px 0;
+    border-bottom: 1px solid  #d5dbdb ;
+}
+@media (max-width:950px){
+    .content{
+    flex: 0 0 90%;
+    max-width: 90%;
+    }
+    .section{
+    flex: 0 0 90%;
+    max-width: 90%;
+    }
+}
