@@ -1,0 +1,50 @@
+.download{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 17px;
+}
+.content-download{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 2rem;
+}
+.download h3{
+    font-weight: 600;
+    color:  #5d6d7e ;
+}
+
+.content-download .info-it p{
+    margin: 6px 0;
+    color: #5d6d7e;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+.content-download .info-it p i{
+    color:   #85c1e9;
+}
+.download .button-down{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    padding: 10px 18px;
+    background:   #abebc6  ;
+    border-radius: 5px;
+    margin: 10px 0;
+}
+.download .button-down i{
+    color: #5d6d7e;
+}
+.download .button-down a{
+    text-decoration: none;
+    font-weight: 700;
+    color:  #5d6d7e ;
+}
+.download .button-down:hover{
+    background:  #58d68d;
+}

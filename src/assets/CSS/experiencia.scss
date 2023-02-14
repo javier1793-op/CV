@@ -1,0 +1,68 @@
+.experiencia{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 2rem;
+}
+.experiencia h3{
+    font-weight: 600;
+    color:  #5d6d7e ;
+}
+.content-exp{
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    border-bottom: 1px solid  #d5dbdb ;
+    padding: 1rem 1rem;
+}
+.content-exp .description-trabajo{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    gap: 10px;
+}
+.content-exp .description-trabajo span{
+    font-weight: 700;
+    font-size: 1rem;
+}
+.content-exp .description-trabajo span:nth-child(2){
+    font-weight: 550;
+    font-size: 1rem;
+}
+.content-exp .description-trabajo span:nth-child(3){
+    font-weight: 550;
+    font-size: 1rem;
+}
+.content-exp img{
+    width: 90px;
+    height:90px;
+    border-radius: 50%;
+    background-size: cover;
+}
+.button-page {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    padding: 10px 18px;
+    background:  #e8daef ;
+    border-radius: 5px;
+    margin: 10px 0;
+    width: 10rem;
+}
+.button-page i{
+    color:  #7d3c98 ;
+}
+.button-page a{
+    text-decoration: none;
+    font-weight: 700;
+    color:   #7d3c98  ;
+}
+.button-page:hover{
+    background:#d2b4de;
+}
+@media (max-width:950px){
+    .content-exp img{
+        display: none;
+    }
+}

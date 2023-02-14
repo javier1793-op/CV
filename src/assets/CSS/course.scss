@@ -1,0 +1,31 @@
+.course{
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 17px;
+}
+.course h3{
+    font-weight: 600;
+    color:  #5d6d7e ;
+}
+.content-course .etiquetas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    padding: 1rem 0;
+    flex-wrap: wrap;
+}
+.content-course .etiquetas .miniaturas{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    padding: 10px 18px;
+    border: 2px solid #5d6d7e ;
+    border-radius: 5px;
+    margin: 10px 0;
+    font-weight: 500;
+    color:  #5d6d7e ;
+}
