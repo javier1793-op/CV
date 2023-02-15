@@ -40,9 +40,14 @@ body{
     .left{
     flex: 0 0 90%;
     max-width: 90%;
+    margin-left:2rem; 
     }
     .right{
     flex: 0 0 90%;
     max-width: 90%;
+    margin-top: .5rem ;
+    margin-left:2rem;
     }
+   
+  
 }
