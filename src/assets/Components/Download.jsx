@@ -1,6 +1,6 @@
 import React from "react";
 import "./../CSS/download.scss";
-import Cv from './../Archive/Ruiz Diaz Javier-A-CV.pdf'
+import Cv from './../Archive/Ruiz Diaz Javier A. CV.pdf'
 
 const Download = () => {
   return (
